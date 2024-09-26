@@ -1,0 +1,228 @@
+/* General Futuristic Styles */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0c0c0c;
+    color: #00ffcc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    padding: 20px 0;
+    background: #101010;
+    border-bottom: 2px solid #00ffcc;
+
+  }
+  
+  footer {
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 2px solid #00ffcc;
+    background-color: #101010;
+  }
+  
+  /* Slideshow Styles */
+  .slideshow-container {
+    max-width: 40%;
+    margin: auto;
+    max-height: 40%; /* Fixed height for the slideshow */
+    padding-bottom: 50px;
+    object-fit: cover;
+}
+
+.slide {
+    display: none;  /* Hide all slides by default */
+    width: 100%; /* Ensure slides fill the container */
+    height: auto;  /* Adjust based on your image sizes */
+    object-fit: cover;
+}
+
+/* the container that keeps the images tucked in*/
+.slide img {
+    max-width: 40%; /* Make images responsive within the slide */
+    max-height: 40%; /* Keep image aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 0 15px #00ffcc;  /* Shadow effect for images */
+    object-fit: cover;
+}
+
+
+.slide-fade {
+    display: none;  /* Hide all slides by default */
+    width: 100%;
+    height: auto;  /* Adjust based on your image sizes */
+    object-fit: cover;
+}
+
+  
+  /* Search Bar and Button */
+  .search-input {
+    margin: 20px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  input {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #00ffcc;
+    background-color: #101010;
+    color: #00ffcc;
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: 0 0 10px #00ffcc;
+    
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #00ffcc;
+    color: #101010;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ffcc;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00ff66;
+    box-shadow: 0 0 15px #00ff66;
+  }
+  
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: #00ff66;
+    align-items: center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: left;
+    unicode-bidi: isolate;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+
+table {
+    border-collapse: collapse;
+    align-items: center;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 1 rem;
+    color: #f5f6f7;
+    background-color: #7f21ab00;
+}
+.results-container {
+    justify-content: left;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+
+  .pokemon-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #101010b4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px #00ffcc;
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  table {
+    width: 700px;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #f5f6f7;
+    background-color: #00000083;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #00ffcc;
+    color: #00ffcc;
+  }
+  
+  th {
+    text-align: left;  /* Align the category header to the left */
+    font-weight: bold;
+  }
+  
+  td:first-child {
+    text-align: left;  /* Align Category (first column) to the left */
+  }
+  
+  td:last-child {
+    text-align: right;  /* Align Stats (second column) to the right */
+  }
+  
+  table td strong {
+    color: #ffffff;
+  }
+  
+  #sprite-container img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ffcc;
+    padding-top: 50px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  #types p {
+    display: inline-block;
+    background-color: #00ffcc;
+    color: #101010;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+
+  .footer {
+    padding-top: 50px;
+  }
+  
+
+  
